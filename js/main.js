@@ -1,10 +1,12 @@
 window.onload = function() {;
     // More Efficient than the upper
-    function setupToggle(toggleId) {
+    function setupToggle(toggleId, submenuClass, maxHeight) {
         var toggleLink = document.getElementById(toggleId);
         if (!toggleLink) return;
 
-        var submenu = toggleLink.nextElementSibling;
+        var submenu = toggleLink.parentElement.querySelector('.' + submenuClass);
+        if (!submenu) return;
+
         toggleLink.addEventListener('click', function (e) {
             e.stopPropagation();
             submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
@@ -22,9 +24,13 @@ window.onload = function() {;
             }
         });
 
-        submenu.style.maxHeight = "300px";
+        submenu.style.maxHeight = maxHeight;
         submenu.style.overflowY = "auto";
     }
+
+    setupToggle('toggle', 'submenu', '300px');
+    setupToggle('mobile-toggle', 'submenu', '300px');
+    setupToggle('toggle-1', 'submenu1', '200px');
 
     setupToggle('toggle');
     setupToggle('mobile-toggle');

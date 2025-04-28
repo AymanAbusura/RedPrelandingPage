@@ -160,11 +160,11 @@ p+p{
 	margin:20px auto;
 	aspect-ratio:129/35
 }
-.header{
-	position:relative;
-	z-index:5;
-/*	padding-block:12px;*/
-	background-color:#00050b;
+.header {
+	position: relative;
+	z-index: 5;
+/*	padding-block: 12px;*/
+	background-color: #00050b;
 }
 .header .flex-bl{
 	-webkit-box-pack:justify;
@@ -176,9 +176,8 @@ p+p{
 	row-gap:5px
 }
 .logo {
-	width: 180px;
+	width: 150px;
 	aspect-ratio: 166/20;
-/*	aspect-ratio: 166/17;*/
 }
 .menu__nav{
 	position:relative;
@@ -917,9 +916,9 @@ table p+p{
 }
 @media only screen and (min-width:374.98px){
 	.logo{
-		width:200px;
-		margin-right:auto
-}
+		width: 150px;
+		margin-right: auto;
+	}
 }
 @media only screen and (min-width:375px){
 	.container{
