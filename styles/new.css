@@ -13,6 +13,11 @@
   font-weight: 500;
 }
 
+.poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
 /* HEADER */
 .header {
     display: flex;
@@ -114,13 +119,13 @@
 
 .text-content-details {
     position: absolute;
-    top: 100px;
+    top: 115px;
     width: 40%;
     font-size: 12px;
 }
 
 .text-content p {
-    color: #fff;
+    color: #ccc;
     line-height: 1.6;
 }
 
@@ -180,23 +185,127 @@
     color: #fff;
 }
 
-.button-wrapper {
-/*    margin-left: 2rem;*/
-}
-
 .join-button {
-    background-color: #f26522;
-    color: white;
-    padding: 0.8rem 2rem;
-    font-size: 1.2rem;
-    font-weight: bold;
+    background: #e94d22;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
     border-radius: 20px;
     text-decoration: none;
     transition: background 0.3s ease;
 }
 
 .join-button:hover {
-    background-color: #d1541a;
+    box-shadow: 0 0 20px rgb(255 255 255 / 60%);
+}
+
+/* ABOUT SECTION */
+.about-section {
+    padding: 80px 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.about-left {
+/*    flex: 1 1 40%;*/
+    flex: 1;
+    color: #fff;
+}
+
+.subtitle {
+    color: #e94d22;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.about-left h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.read-more-button {
+    background: #e94d22;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.read-more-button:hover {
+    box-shadow: 0 0 20px rgb(255 255 255 / 60%);
+}
+
+.about-right {
+    flex: 1;
+/*    flex: 1 1 55%;*/
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.stat-item {
+    background: #1a1a1a;
+    padding: 20px;
+    border-right: 1px solid #333;
+    position: relative;
+    text-align: left;
+    color: #fff;
+}
+
+.stat-item:last-child {
+    border-right: none;
+}
+
+.stat-item h2 {
+    font-size: 50px;
+}
+
+.stat-title {
+    width: 60%;
+    color: #fd8235;
+    margin-bottom: 20px;
+}
+
+.stat-item:nth-of-type(2) .stat-title {
+    margin-bottom: 40px;
+}
+
+.stat-text {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.stat-item h2::after {
+    content: "";
+    position: absolute;
+    top: 11%;
+    right: 20%;
+    width: 35px;
+    height: 35px;
+    background: #1c1d1f;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(255 255 255);
 }
 
 /* FOOTER */

@@ -75,7 +75,7 @@ body{
 	font-size:14px;
 	line-height:1.5;
 	word-break:break-word;
-	color: #687a7f;
+/*	color: #687a7f;*/
 	background-color: #000000;
 }
 .wrapper{
@@ -102,11 +102,11 @@ section.p0{
 	background-color:#00050b
 }
 .title-2{
-	margin-bottom:20px;
-	font-size:24px;
-	line-height:1.2;
-	font-weight:600;
-	color:#1b3942
+	margin-bottom: 20px;
+	font-size: 24px;
+	line-height: 1.2;
+/*	font-weight: 600;*/
+	color: #fff;
 }
 .title-2 span,.title-form span,img{
 	display:block
@@ -126,10 +126,9 @@ section.p0{
 	margin:0 auto 20px
 }
 .txt{
-	color:#1b3942;
-	font-size:16px;
-	font-weight:500;
-	line-height:1.5
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
 }
 .accent{
 	color:#fd8704
