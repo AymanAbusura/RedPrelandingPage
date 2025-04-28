@@ -626,9 +626,7 @@ textarea{
 	margin:20px 0 0;
 	max-width:320px
 }
-.faq{
-	background:#f7f8f8
-}
+
 .faq__row{
 	display:-webkit-box;
 	display:-ms-flexbox;
