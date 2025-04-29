@@ -88,7 +88,7 @@
 
         <section class="hero">
             <video autoplay muted loop playsinline class="background-video">
-                <source src="assets/banner.mkv" type="video/mp4">
+                <source src="assets/banner.mp4" type="video/mp4">
             </video>
             <div class="hero-content">
                 <div class="text-content">
@@ -233,21 +233,21 @@
             <div class="contact-form">
                 <p class="form-description">Didn't find the answer to your question? Write to us and we will explain everything!</p>
                 <h2 class="faq-form-title">Send Your Message</h2>
-                <form class="faq-form">
+                <form action="#" class="faq-form">
                     <div class="form-row">
                         <div>
-                            <label>First Name</label>
-                            <input type="text" required>
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" autocomplete="off" required>
                         </div>
                         <div>
-                            <label>Last Name</label>
-                            <input type="text" required>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" autocomplete="off" required>
                         </div>
                     </div>
-                    <label>Email</label>
-                    <input type="email" required>
-                    <label>Message</label>
-                    <textarea required></textarea>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="off" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" autocomplete="off" required></textarea>
                     <button type="submit" class="send-button">Send Now</button>
                 </form>
             </div>

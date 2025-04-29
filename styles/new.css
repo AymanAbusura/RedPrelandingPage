@@ -577,6 +577,7 @@
     font-size: 1rem;
     cursor: pointer;
     width: fit-content;
+    margin-top: 20px;
 }
 
 .faq-section {
