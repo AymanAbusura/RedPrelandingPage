@@ -67,7 +67,7 @@ window.onload = function() {;
 
 
     // замена домена
-    var domainName = "monitrexpro.com";
+    var domainName = "affinexisai.com";
     var replaceableTextElements = document.querySelectorAll(".domain");
     replaceableTextElements.forEach(function(element) {
         if (element.classList.contains("email")) {
